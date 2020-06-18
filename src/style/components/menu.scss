@@ -1,0 +1,24 @@
+.menu {
+  &__item {
+    color: $heading;
+    font-weight: 600;
+    margin-left: 22px;
+    padding: 2px 20px;
+
+    &.active {
+      color: $bg;
+      background-color: $btn;
+      border-radius: 60px;
+    }
+
+    &-user {
+      padding: 0;
+    }
+  }
+
+  &__user {
+    &-img {
+      border-radius: 50%;
+    }
+  }
+}

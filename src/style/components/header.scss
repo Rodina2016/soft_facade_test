@@ -1,0 +1,15 @@
+.header {
+  padding: 50px 0 49px 0;
+  background-color: $bg;
+  border-bottom: 1px solid $border-light;
+
+  &__logo {
+    display: block;
+    line-height: 0;
+
+    &-svg {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

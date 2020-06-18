@@ -1,0 +1,22 @@
+button.btn,
+a.btn {
+  display: inline-block;
+  padding: 10px 17px 9px;
+  color: $bg;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 99px;
+  background-color: $btn;
+  border: 1px solid $btn;
+  line-height: 100%;
+
+  &-trns {
+    background-color: transparent;
+    border-color: $accent-main;
+    color: $accent-main;
+  }
+
+  &-sm {
+    font-size: 12px;
+  }
+}
