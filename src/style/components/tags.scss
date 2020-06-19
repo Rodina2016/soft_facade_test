@@ -1,0 +1,25 @@
+.tags {
+  margin-bottom: 31px;
+
+  &__heading {
+    margin-bottom: 9px;
+    color: $heading;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  &__item {
+    display: inline-block;
+    padding: 3px 12px;
+    margin-right: 7px;
+    margin-bottom: 8px;
+    background-color: $tags;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $accent-main;
+    border-radius: 99px;
+  }
+}

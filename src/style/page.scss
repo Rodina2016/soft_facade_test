@@ -4,6 +4,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
+  color: $content;
 }
 
 .layout {
@@ -40,9 +41,22 @@ h1 {
   line-height: 140%;
   margin-top: 0;
   margin-bottom: 32px;
+  color: $heading;
 
   @media (max-width: 567px) {
     font-size: 38px;
     margin-bottom: 18px;
   }
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 128.91%;
+  color: $heading;
+  margin-top: 45px;
+}
+
+p {
+  line-height: 24px;
 }

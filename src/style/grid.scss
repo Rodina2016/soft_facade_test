@@ -1,5 +1,5 @@
 .wrapper {
-  width: 1103px;
+  width: 1133px;
   margin: 0 auto;
   padding-right: $gutter;
   padding-left: $gutter;
@@ -53,6 +53,7 @@
 
 .cell {
   padding: 0 $gutter;
+  box-sizing: border-box;
 }
 
 .ungutter {
