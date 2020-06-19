@@ -1,4 +1,7 @@
 .info {
+  @media (max-width: 768px) {
+    order: 2;
+  }
   &__text {
     &-heading {
       font-weight: bold;
@@ -11,6 +14,11 @@
       margin: 0;
       color: $content;
       line-height: 140%;
+
+      &:first-child {
+        margin-bottom: 4px;
+        letter-spacing: 0.5px;
+      }
 
       &--sm {
         font-size: 12px;

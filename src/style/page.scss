@@ -5,6 +5,10 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: $content;
+
+  @media (max-width: 768px) {
+    background-color: $bg;
+  }
 }
 
 .layout {
@@ -17,7 +21,7 @@ body {
   padding-top: 64px;
   flex-grow: 1;
 
-  @media (max-width: 567px) {
+  @media (max-width: 768px) {
     padding-top: 24px;
   }
 }
@@ -43,8 +47,8 @@ h1 {
   margin-bottom: 32px;
   color: $heading;
 
-  @media (max-width: 567px) {
-    font-size: 38px;
+  @media (max-width: 768px) {
+    font-size: 28px;
     margin-bottom: 18px;
   }
 }

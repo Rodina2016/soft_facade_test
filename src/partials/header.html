@@ -1,13 +1,20 @@
 <header class="header">
     <div class="wrapper">
         <div class="flex">
-            <div class="col-3">
+            <div class="col-3 col-sm-12 justify-center-sm flex">
                 <a href="/" class="header__logo">
                     <svg class="header__logo-svg">
                         <use href="#logo"></use>
                     </svg>
                 </a>
+                <a href="/" class="header__logo-mob">
+                    <svg class="header__logo-svg">
+                        <use href="#logo_mob"></use>
+                    </svg>
+                </a>
             </div>
+            <input type="checkbox" class="burger__input" id="burger">
+            <label class="burger__label" for="burger"></label>
             <nav class="menu flex col-9 align-center justify-end">
                 <a href="#" class="menu__item">
                     Home

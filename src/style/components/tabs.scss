@@ -1,5 +1,9 @@
 .tabs {
   margin-top: 27px;
+  @media (max-width: 768px) {
+    order: 4;
+    margin-top: 55px;
+  }
   &__label {
     padding-bottom: 13px;
     font-size: 12px;

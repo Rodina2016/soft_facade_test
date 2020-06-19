@@ -1,6 +1,10 @@
 .donation {
   margin-top: 40px;
 
+  @media (max-width: 768px) {
+    margin-top: 25px;
+  }
+
   &__heading {
     font-weight: bold;
     font-size: 28px;

@@ -1,9 +1,25 @@
 .menu {
+
+  @media (max-width: 768px) {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    flex-direction: column;
+    width: 100%;
+    background-color: $bg;
+  }
+
   &__item {
     color: $heading;
     font-weight: 600;
     margin-left: 22px;
     padding: 2px 20px;
+
+    @media (max-width: 768px) {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
 
     &.active {
       color: $bg;
@@ -19,6 +35,7 @@
   &__user {
     &-img {
       border-radius: 50%;
+      vertical-align: middle;
     }
   }
 }
